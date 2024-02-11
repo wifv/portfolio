@@ -45,9 +45,10 @@ const Page = () => {
                 <p className="me-right-block">
                     Creating websites of variout complexity. <br />
                     Online shopping, Game catalog, Audio player, Beautiful <br />
-                    Designs and maybe even a Weather app. <br />
-                    
+                    Designs and maybe a Weather app? <br />
+                    Teamwork is my second name, and i google quite a lot <br />
                 </p>
+                <a href="#"><div className="hello-btn">Contact Me</div></a>
             </div>
         </div>
       </section>
