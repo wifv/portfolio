@@ -1,10 +1,13 @@
-import './App.css'
+import './assets/App.css'
+import Navbar from './assets/Navbar'
+import Page from './assets/Page'
 
 function App() {
 
   return (
-    <div>
-      App
+    <div className='app-container'>
+      <Navbar />
+      <Page />
     </div>
   )
 }
