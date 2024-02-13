@@ -68,9 +68,9 @@
 }
 
 .my-image-2 {
-    width: 350px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 25px;
-    
 }
 
 .hello-btn {
@@ -80,6 +80,9 @@
     border-radius: 20px;
     padding: 20px 30px;
     max-width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .hi {
@@ -100,10 +103,104 @@
         border-radius: 58% 40% 30% 70%/60% 30% 70% 40%;
     }
     
-    50% {
+    33% {
         border-radius: 30% 60% 70% 40%/50% 60% 30%;
+    }
+    
+    66% {
+        border-radius: 60% 70% 50% 80%/50% 50% 60%;
     }
     100% {
         border-radius: 58% 40% 30% 70%/60% 30% 70% 40%;
     }
+}
+
+.text-center {
+    margin: auto;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 2.25rem;
+}
+
+.me-block {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.me-right-block {
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+    gap: 10px;
+}
+
+.me-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.me-right-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 0.5rem;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.7rem;
+}
+
+.me-right-1 svg {
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.about-me {
+    margin-top: 350px;
+}
+
+.some-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-2 {
+    color: rgb(128, 128, 128);;
+}
+
+.margin-top {
+    margin-top: 200px;
+}
+
+.skill-block svg {
+    width: 16px;    
+}
+
+.skills {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.skill-block {
+    padding: 10px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+.skill-block:hover {
+    background-color: black;
+}
+
+.skill-block:hover * {
+    color: #fff;
+    fill: #fff;
 }
