@@ -96,20 +96,21 @@
 
     /* //// */
     
-    /* 25% { clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); } */
-    /* 50% { clip-path: polygon(45% 14%, 81% 9%, 94% 38%, 83% 68%, 81% 95%, 50% 100%, 23% 89%, 3% 75%, 3% 39%, 21% 12%); } */
-    /* 75% { clip-path: polygon(51% 18%, 93% 9%, 96% 37%, 91% 78%, 71% 98%, 44% 95%, 14% 92%, 0% 70%, 12% 41%, 20% 10%); } */
+    /* 25% { clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%); }
+    50% { clip-path: polygon(45% 14%, 81% 9%, 94% 38%, 83% 68%, 81% 95%, 50% 100%, 23% 89%, 3% 75%, 3% 39%, 21% 12%); }
+    75% { clip-path: polygon(51% 18%, 93% 9%, 96% 37%, 91% 78%, 71% 98%, 44% 95%, 14% 92%, 0% 70%, 12% 41%, 20% 10%); } */
     0% {
         border-radius: 58% 40% 30% 70%/60% 30% 70% 40%;
     }
     
     33% {
-        border-radius: 30% 60% 70% 40%/50% 60% 30%;
+        border-radius: 60% 70% 50% 80%/50% 50% 60%;
     }
     
     66% {
-        border-radius: 60% 70% 50% 80%/50% 50% 60%;
+        border-radius: 30% 60% 70% 40%/50% 60% 30%;
     }
+
     100% {
         border-radius: 58% 40% 30% 70%/60% 30% 70% 40%;
     }
@@ -178,22 +179,37 @@
     margin-top: 200px;
 }
 
+
+
 .skill-block svg {
-    width: 16px;    
+    width: 18px;    
 }
 
 .skills {
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    margin-top: 100px;
 }
 
 .skill-block {
-    padding: 10px;
+    padding: 20px 10px;
     border: 1px solid rgb(128, 128, 128);
     border-radius: 10px;
     background-color: white;
     transition: all 0.2s;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.skill-block h2 {
+    font-size: 17px;
+}
+
+.skill-block h5 {
+    font-size: 14px;
 }
 
 .skill-block:hover {

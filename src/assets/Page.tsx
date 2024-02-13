@@ -64,69 +64,69 @@ const Page = () => {
       <section className="Skills margin-top">
         <h1 className="text-center">Skills</h1>
         <h5 className="text-center color-2">My Technical Level</h5>
-        
+
         <div className="skills">
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>HTML</h5>
-              <h5>Intermediate</h5>
+              <h2>HTML</h2>
+              <h5 className="color-2">Intermediate</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>CSS</h5>
-              <h5>Intermidiate</h5>
+              <h2>CSS</h2>
+              <h5 className="color-2">Intermidiate</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>Git</h5>
-              <h5>Basic</h5>
+              <h2>Sass</h2>
+              <h5 className="color-2">Intermediate</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>Sass</h5>
-              <h5>Intermediate</h5>
+              <h2>JavaScript</h2>
+              <h5 className="color-2">Intermediate</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>React</h5>
-              <h5>Basic</h5>
+              <h2>TypeScript</h2>
+              <h5 className="color-2">Intermediate</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>tailwind</h5>
-              <h5>Basic</h5>
+              <h2>Git</h2>
+              <h5 className="color-2">Basic</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>Bootstrap</h5>
-              <h5>Basic</h5>
+              <h2>React</h2>
+              <h5 className="color-2">Basic</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>JavaScript</h5>
-              <h5>Intermediate</h5>
+              <h2>tailwind</h2>
+              <h5 className="color-2">Basic</h5>
             </div>
           </div>
           <div className="skill-block">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"/></svg>
             <div className="skill-block-right">
-              <h5>TypeScript</h5>
-              <h5>Intermediate</h5>
+              <h2>Bootstrap</h2>
+              <h5 className="color-2">Basic</h5>
             </div>
           </div>
         </div>
