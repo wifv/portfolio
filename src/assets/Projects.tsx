@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Rawg Clone</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Solo</h5>
-            <a href='https://rawg-eight.vercel.app/'>view</a>
+            <a href='https://rawg-eight.vercel.app/' target='_blank'>view</a>
           </div>
         </SwiperSlide>
 
@@ -32,7 +32,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Spotify Like Audio Player</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Solo</h5>
-            <a href='https://spotifyy-ten.vercel.app/'>view</a>
+            <a href='https://spotifyy-ten.vercel.app/' target='_blank'>view</a>
           </div>
         </SwiperSlide>
         
@@ -41,7 +41,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Divesea NFT Marketplace</h4>
             <h5 className='color-2'>#VanillaJS #FrontEnd #HTML #CSS #Team</h5>
-            <a href='https://dive-sea-eight.vercel.app/'>view</a>
+            <a href='https://dive-sea-eight.vercel.app/' target='_blank'>view</a>
           </div>
         </SwiperSlide>
         
@@ -50,7 +50,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Wezzy | Weather App</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Solo</h5>
-            <a href='https://wezzy.vercel.app/'>view</a>
+            <a href='https://wezzy.vercel.app/' target='_blank'>view</a>
           </div>
         </SwiperSlide>
       </Swiper>

@@ -39,9 +39,9 @@ const Contact = () => {
         </div>
         <form id="form" name="form" className="form" onSubmit={handleSubmit}>
           <div className="text-center">Write me your message</div>
-          <input type="text" name="name" placeholder="Write your name" />
-          <input type="number" name="number" placeholder="Write you phone number" />
-          <textarea name="message" id="form-text" cols={30} rows={10} placeholder="Write your message"></textarea>
+          <input type="text" name="name" placeholder="Write your name" required/>
+          <input type="number" name="number" placeholder="Write you phone number" required/>
+          <textarea name="message" id="form-text" cols={30} rows={10} placeholder="Write your message" required></textarea>
           <button type="submit" className="submit-btn">Send Message</button>
         </form>
       </div>

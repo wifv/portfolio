@@ -1,0 +1,49 @@
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+svg,
+.svg
+{
+  max-width: 28px;
+}
+
+
+.edu-container {
+  max-width: 400px;
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.c {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cool-stuff {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.round {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: rgb(128, 128, 128);
+  border-radius: 50%
+}
+
+.line {
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: rgb(128, 128, 128);
+  transform: translate(6px,-7px);
+}

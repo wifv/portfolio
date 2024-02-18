@@ -21,7 +21,7 @@ body {
     margin: 20px auto 20px auto;
     max-width: 1300px;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0;
     z-index: 10;
 }
 
