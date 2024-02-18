@@ -1,4 +1,7 @@
 import "./page.css"
+import "./global.css"
+import Contact from "./Contact"
+import Projects from "./Projects"
 
 const Page = () => {
   return (
@@ -130,6 +133,13 @@ const Page = () => {
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="margin-top">
+        <Contact />
+      </section>
+      <section className="margin-top">
+        <Projects />
       </section>
     </div>
   )

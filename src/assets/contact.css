@@ -1,0 +1,29 @@
+.submit-btn {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px 30px;
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form input,
+.form textarea
+{
+  padding: 10px;
+}

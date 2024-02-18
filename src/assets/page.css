@@ -116,15 +116,6 @@
     }
 }
 
-.text-center {
-    margin: auto;
-    text-align: center;
-}
-
-.h1 {
-    font-size: 2.25rem;
-}
-
 .me-block {
     display: flex;
     justify-content: space-around;
@@ -171,14 +162,6 @@
     justify-content: center;
 }
 
-.color-2 {
-    color: rgb(128, 128, 128);;
-}
-
-.margin-top {
-    margin-top: 200px;
-}
-
 
 
 .skill-block svg {
@@ -200,7 +183,7 @@
     transition: all 0.2s;
     display: flex;
     gap: 15px;
-    align-items: flex-start;
+    align-items: start;
     cursor: pointer;
 }
 
