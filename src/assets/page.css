@@ -153,7 +153,7 @@
 }
 
 .about-me {
-    margin-top: 350px;
+    padding-top: 100px;
 }
 
 .some-container {
@@ -162,6 +162,9 @@
     justify-content: center;
 }
 
+#about {
+    margin-top: 200px;
+}
 
 
 .skill-block svg {
