@@ -2,7 +2,7 @@ import "./global.css"
 import "./contact.css"
 
 const Contact = () => {
-  function handleSubmit(e) {
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     console.log(e.currentTarget)
     const data = new FormData(e.currentTarget)
