@@ -35,7 +35,6 @@ const Contact = () => {
       <div className="form-container">
         <div className="form-image">
           <div className="text-center">Talk to me</div>
-          {/* <img src="src/assets/me.jpg" alt="" /> */}
         </div>
         <form id="form" name="form" className="form" onSubmit={handleSubmit}>
           <div className="text-center">Write me your message</div>

@@ -3,6 +3,8 @@ import "./global.css"
 import Contact from "./Contact"
 import Projects from "./Projects"
 import Exp from "./Exp"
+import me from "./images/me.jpg"
+import also_me from "./images/also_me.jpg"
 
 const Page = () => {
   return (
@@ -26,7 +28,7 @@ const Page = () => {
             <br /><br />
             <div className="hello-btn">Say Hello <svg className="hi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#fafa00" d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V240c0 8.8-7.2 16-16 16s-16-7.2-16-16V64c0-17.7-14.3-32-32-32s-32 14.3-32 32V336c0 1.5 0 3.1 .1 4.6L67.6 283c-16-15.2-41.3-14.6-56.6 1.4s-14.6 41.3 1.4 56.6L124.8 448c43.1 41.1 100.4 64 160 64H304c97.2 0 176-78.8 176-176V128c0-17.7-14.3-32-32-32s-32 14.3-32 32V240c0 8.8-7.2 16-16 16s-16-7.2-16-16V64c0-17.7-14.3-32-32-32s-32 14.3-32 32V240c0 8.8-7.2 16-16 16s-16-7.2-16-16V32z"/></svg></div>
         </div>
-        <img src="/public/static/me.jpg" alt="my image" className="my-image "/>
+        <img src={me} alt="my image" className="my-image "/>
       </section>
 
       <div id="about"></div>
@@ -37,7 +39,7 @@ const Page = () => {
         <br /><br /><br />
         <div className="me-block">
             <div className="some-container">
-              <img src="/public/also_me.jpg" alt="my image" className="my-image my-image-2"/>
+              <img src={also_me} alt="my image" className="my-image my-image-2"/>
             </div>
             <div className="me-right">
                 <div className="me-right-block">
