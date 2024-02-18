@@ -7,7 +7,7 @@ const Exp = () => {
       <h5 className="text-center colo-2">My personal journey</h5>
       <br /><br /><br />
       <div className="flex">
-        <img src="src/assets/cap.svg" alt="a graduation cap" className='svg'/>
+        <img src="/public/assets/cap.svg" alt="a graduation cap" className='svg'/>
         <h4>Education</h4>
       </div>
       <br />
