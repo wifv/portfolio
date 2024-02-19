@@ -63,10 +63,8 @@ const Page = () => {
                     Creating websites of various complexity.
                     Marketplace, Game catalog, Audio player,
                     Beautiful Designs and maybe a Weather app?
-                    Teamwork is my second name, and i google quite a lot
-                    ching chong ching chong ching chong
-                    ching chong ching chong ching chong
-                    ching chong ching chong ching chong
+                    Google is my best friend, and TeamWork is
+                    what everyone needs
                 </p>
                 <a href="https://t.me/bdfelka" target="_blank"><div className="hello-btn">
                   Contact Me

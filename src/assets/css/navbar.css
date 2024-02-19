@@ -52,3 +52,41 @@ body {
 * {
   color: black;
 }
+
+.menu {
+  width: 40px;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    overflow: hidden;
+  }
+  .nav-right {
+    display: none !important;
+  }
+  .menu {
+    display: block;
+  }
+  .nav ul li {
+    border-bottom: none;
+  }
+}
+.active-nav-right {
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  left: 0;
+  top: 58px;
+  padding-top: 12px;
+  background-color: #FAFAFA;
+  z-index: 2;
+  width: 100%;
+  padding-bottom: 20px;
+  gap: 0 !important;
+}
+.active-nav-right li {
+  padding: 20px 0;
+}
