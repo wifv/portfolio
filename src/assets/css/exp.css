@@ -3,6 +3,12 @@
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 svg,
@@ -12,6 +18,7 @@ svg,
 
 .edu-container {
   max-width: 400px;
+  margin: auto;
 }
 
 .edu-grid {
@@ -22,18 +29,19 @@ svg,
   grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   -webkit-column-gap: 1.5rem;
-     -moz-column-gap: 1.5rem;
-          column-gap: 1.5rem;
+  -moz-column-gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 
 .c {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  text-align: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -43,8 +51,8 @@ svg,
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .round {
@@ -60,6 +68,8 @@ svg,
   width: 1px;
   height: 100%;
   background-color: rgb(128, 128, 128);
+  position: relative;
+  top: 7px;
   -webkit-transform: translate(6px, -7px);
-          transform: translate(6px, -7px);
+  transform: translate(6px, -7px);
 }

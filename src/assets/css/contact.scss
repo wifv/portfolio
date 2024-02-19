@@ -23,6 +23,7 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .form {
@@ -34,7 +35,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
-  width: 360px;
+  max-width: 360px;
+  width: 100%;
 }
 
 .form input,
@@ -42,4 +44,29 @@
   padding: 1.5rem;
   border-radius: 0.75rem;
   border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+
+.info-block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 7px;
+  padding: 16px;
+  width: 300px;
+  height: 130px;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(0,0,0,.1);
+  background-color: #FAFAFA;
+}
+
+.form-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.no-mg {
+  margin: 0;
 }

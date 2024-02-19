@@ -1,4 +1,4 @@
-import './navbar.css'
+import '../css/navbar.css'
 
 const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ const Navbar = () => {
           <ul>
               <li className="nav-item"><a href='#about'>About</a></li>
               <li className="nav-item"><a href='#skills'>Skills</a></li>
-              {/* <li className="nav-item"><a href='#'>Service</a></li> */}
+              <li className="nav-item"><a href='#qualification'>qualification</a></li>
               <li className="nav-item"><a href='#projects'>Projects</a></li>
               <li className="nav-item"><a href='#contact'>Contact</a></li>
           </ul>

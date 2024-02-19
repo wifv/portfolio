@@ -16,8 +16,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 20px;
   cursor: -webkit-grab;
   cursor: grab;
@@ -32,8 +32,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   gap: 5px;
 }
 
@@ -47,4 +47,14 @@
 
 .swiper-wrapper {
   height: 320px;
+}
+
+@media (max-width: 560px) {
+  .slide {
+    max-width: 100%;
+    height: auto;
+  }
+  .swiper-wrapper {
+    height: auto;
+  }
 }

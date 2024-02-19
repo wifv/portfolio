@@ -4,22 +4,31 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import './projects.css';
-import './global.css';
-import rawg from './images/rawg.png';
-import wezzy from './images/wezzy.png';
-import spotify from './images/spotify.png';
-import divesea from './images/divesea.png';
+import '../css/projects.css';
+import '../css/global.css';
+import rawg from '../images/rawg.png';
+import wezzy from '../images/wezzy.png';
+import spotify from '../images/spotify.png';
+import divesea from '../images/divesea.png';
 
 const Projects = () => {
   return (
     <div className='projects'>
       <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={30}
-      slidesPerView={3}
+      spaceBetween={0}
+      slidesPerView={1}
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      breakpoints={{
+        560: {
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        840: {
+          slidesPerView: 3,
+          spaceBetween: 30
+        },
+      }}
       >
         <SwiperSlide className='slide'>
           <img src={rawg} alt="" />
@@ -57,6 +66,7 @@ const Projects = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      <div  id="qualification"></div>
     </div>
   )
 }

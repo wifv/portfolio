@@ -1,15 +1,17 @@
-import './exp.css'
+import '../css/exp.css'
+import cap from '../images/cap.svg'
 
 const Exp = () => {
   return (
     <div>
       <h1 className="text-center">Qualification</h1>
-      <h5 className="text-center colo-2">My personal journey</h5>
-      <br /><br /><br />
+      <h5 className="text-center color-2">My personal journey</h5>
+      <br /><br /><br /><br />
       <div className="flex">
-        <img src="/public/assets/cap.svg" alt="a graduation cap" className='svg'/>
+        <img src={cap} alt="a graduation cap" className='svg'/>
         <h4>Education</h4>
       </div>
+        <br /><br />
       <br />
       <div className="edu-container">
         <div className="edu-grid">
