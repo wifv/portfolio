@@ -10,7 +10,7 @@
 
 .slide {
   max-width: 340px;
-  height: 280px;
+  height: 285px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,7 +34,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
 }
 
 .info-container a {
@@ -43,6 +43,7 @@
   width: -moz-fit-content;
   width: fit-content;
   padding: 3px;
+  border-bottom: 2px solid #000000;
 }
 
 .swiper-wrapper {
