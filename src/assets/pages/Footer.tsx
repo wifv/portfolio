@@ -4,7 +4,7 @@ import '../css/footer.css'
 const Footer = () => {
   return (
     <footer>
-      <h1 className='text-center'>CLI.uz</h1>
+      <h1 className='text-center'>wifv</h1>
       <br /><br />
       <div className="flex">
         <a href="#about">About</a>
@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <br /><br /><br /><br />
       <div className="text-center color-2">
-        © CLI.uz 2024
+        © wifv 2024
       </div>
       <br />
     </footer>
