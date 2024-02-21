@@ -4,7 +4,6 @@ import Contact from "./Contact"
 import Projects from "./Projects"
 import Exp from "./Exp"
 import me from "../images/me.jpg"
-import also_me from "../images/also_me.jpg"
 
 const Page = () => {
   return (
@@ -22,7 +21,7 @@ const Page = () => {
           </a>
         </div>
         <div className="landing-text">
-            <h1>Hello My Niggas!</h1>
+            <h1>Hello World!</h1>
             <h3>Front-End Developer</h3>
             <h4>Hi, I'm Abduaziz, Front-End. I develop <br /> web-sites and like to make algorythms, <br /> i like coding as well!</h4>
             <br /><br />
@@ -39,7 +38,7 @@ const Page = () => {
         <br /><br /><br />
         <div className="me-block">
             <div className="some-container">
-              <img src={also_me} alt="my image" className="my-image my-image-2"/>
+              <img src={me} alt="my image" className="my-image my-image-2"/>
             </div>
             <div className="me-right">
                 <div className="me-right-block">
