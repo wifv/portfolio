@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="info-block">
             <img src={instagram} alt="" className="svg"/>
             <h5>Instagram</h5>
-            <a href="https://www.instagram.com/wifv_personal" className="color-2">idk</a>
+            <a href="https://www.instagram.com/wifv_personal" className="color-2">@wifv_personal</a>
           </div>
         </div>
         <form id="form" name="form" className="form" onSubmit={handleSubmit}>
