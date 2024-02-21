@@ -10,6 +10,7 @@ import rawg from '../images/rawg.png';
 import wezzy from '../images/wezzy.png';
 import spotify from '../images/spotify.png';
 import divesea from '../images/divesea.png';
+import nftgw from '../images/nftgw.png';
 
 const Projects = () => {
   return (
@@ -62,7 +63,25 @@ const Projects = () => {
           <div className="info-container">
             <h4>Wezzy | Weather App</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Solo</h5>
-            <a href='https://wezzy.vercel.app/' target='_blank'>view</a>
+            <a href='https://wezzy.vercel.app' target='_blank'>view</a>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className='slide'>
+          <img src={nftgw} alt="" />
+          <div className="info-container">
+            <h4>NFT Gaming</h4>
+            <h5 className='color-2'>#VanillaJS #FrontEnd #HTML #CSS #Team</h5>
+            <a href='https://nftgw-wifvs-projects.vercel.app' target='_blank'>view</a>
+          </div>
+        </SwiperSlide>
+        
+        <SwiperSlide className='slide'>
+          <img src={nftgw} alt="" />
+          <div className="info-container">
+            <h4>NFT Gaming</h4>
+            <h5 className='color-2'>#VanillaJS #FrontEnd #HTML #CSS #Team</h5>
+            <a href='https://nftgw-wifvs-projects.vercel.app' target='_blank'>view</a>
           </div>
         </SwiperSlide>
       </Swiper>
