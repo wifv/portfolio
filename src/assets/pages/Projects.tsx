@@ -11,6 +11,7 @@ import wezzy from '../images/wezzy.png';
 import spotify from '../images/spotify.png';
 import divesea from '../images/divesea.png';
 import nftgw from '../images/nftgw.png';
+import makro from '../images/makro.png';
 
 const Projects = () => {
   return (
@@ -77,11 +78,11 @@ const Projects = () => {
         </SwiperSlide>
         
         <SwiperSlide className='slide'>
-          <img src={nftgw} alt="" />
+          <img src={makro} alt="" />
           <div className="info-container">
-            <h4>NFT Gaming</h4>
-            <h5 className='color-2'>#VanillaJS #FrontEnd #HTML #CSS #Team</h5>
-            <a href='https://nftgw-wifvs-projects.vercel.app' target='_blank'>view</a>
+            <h4>Makro Catalog</h4>
+            <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Team</h5>
+            <a href='https://makro-bay.vercel.app/' target='_blank'>view</a>
           </div>
         </SwiperSlide>
       </Swiper>
