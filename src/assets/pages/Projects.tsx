@@ -12,6 +12,7 @@ import spotify from '../images/spotify.png';
 import divesea from '../images/divesea.png';
 import nftgw from '../images/nftgw.png';
 import makro from '../images/makro.png';
+import soccer from '../images/soccer.png';
 
 const Projects = () => {
   return (
@@ -37,7 +38,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Rawg Clone</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Solo</h5>
-            <a href='https://rawg-eight.vercel.app/' target='_blank'>view</a>
+            <a href='https://rawgwifv.vercel.app' target='_blank'>view</a>
           </div>
         </SwiperSlide>
 
@@ -46,7 +47,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Spotify Like Audio Player</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Solo</h5>
-            <a href='https://spotifyy-ten.vercel.app/' target='_blank'>view</a>
+            <a href='https://spotifywifv.vercel.app' target='_blank'>view</a>
           </div>
         </SwiperSlide>
         
@@ -55,7 +56,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>Divesea NFT Marketplace</h4>
             <h5 className='color-2'>#VanillaJS #FrontEnd #HTML #CSS #Team</h5>
-            <a href='https://dive-sea-eight.vercel.app/' target='_blank'>view</a>
+            <a href='https://diveseawifv.vercel.app' target='_blank'>view</a>
           </div>
         </SwiperSlide>
         
@@ -73,7 +74,7 @@ const Projects = () => {
           <div className="info-container">
             <h4>NFT Gaming</h4>
             <h5 className='color-2'>#VanillaJS #FrontEnd #HTML #CSS #Team</h5>
-            <a href='https://nftgw-wifvs-projects.vercel.app' target='_blank'>view</a>
+            <a href='https://nftgw.vercel.app' target='_blank'>view</a>
           </div>
         </SwiperSlide>
         
@@ -82,7 +83,16 @@ const Projects = () => {
           <div className="info-container">
             <h4>Makro Catalog</h4>
             <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Team</h5>
-            <a href='https://makro-bay.vercel.app/' target='_blank'>view</a>
+            <a href='https://makro-bay.vercel.app' target='_blank'>view</a>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className='slide'>
+          <img src={soccer} alt="" />
+          <div className="info-container">
+            <h4>Makro Catalog</h4>
+            <h5 className='color-2'>#API #VanillaJS #FrontEnd #HTML #CSS #Team</h5>
+            <a href='https://soccerwifv.vercel.app' target='_blank'>view</a>
           </div>
         </SwiperSlide>
       </Swiper>
